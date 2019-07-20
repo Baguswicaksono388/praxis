@@ -1,0 +1,29 @@
+Agile software development = model pengembangan software yang sifatnya untuk 
+Kolaborasi antara programing, marketing, desainer, dsb dalam suatu perusahaan
+pengembang software.
+
+Bahamasa pemograman = bahasa manusia yang mendeskripsikan perintahnya yang akan
+diterjemahkan pada system
+
+Compailer intepreter
+
+Keterkaitan antara bahasa pemograman,compailer,dan intepreter
+Keterkaitan antara ketiganya adalah bahasa pemograman itu bisa dinyatakan
+compailer(golang) dan bisa dinyatakan interpreiter (ex: php)
+
+Bahasa pemograman setidaknya ada looping, if else. Jadi, untuk html
+adalah bahasa pemegraman markup.
+
+Node.js -> Js yang berjalan di serversaid, dan untuk js hanya bisa berjalan di
+web browser saja. Sehingga, dgn adanya node.js, js bisa berjalan di level OS.
+Jadi, bisa kita simpulkan adlh tools untuk menjalankan js di level OS.
+
+npmjs (Node pacage manajer) -> Tools untuk menejemen  
+
+install nvm (hindari mauk ke root)
+1. https://github.com/nvm-sh/nvm
+2. wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+3. nvm install --lts
+4. nvm use default
+
+D
