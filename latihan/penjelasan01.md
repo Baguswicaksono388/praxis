@@ -16,7 +16,7 @@ Jadi, untuk perulangan di atas : <br>
 4. Perlu diperhatikan console.log itu sifatnya, ketika akan menuliskan pada console.log(), ini akan langsung enter. <br>
 
 <b>Hasilnya</b><br>
-* <br>
+*<br>
 ** <br>
 *** <br>
 **** <br>
