@@ -1,5 +1,6 @@
 # Penjelasan
 
+Node.js adalah sebuah javascript yang berjalan di server said, dan untuk javascript itu sendiri hanya bisa berjalan di web browser saja. Sehingga, dgn adanya node.js, javascript bisa berjalan di level OS. Jadi, bisa kita simpulkan, node.js adlh tools untuk menjalankan javascript di level OS. <br>
 
 for (var i=1; i<=7; i++) { <br> 
     var z=''; <br>
