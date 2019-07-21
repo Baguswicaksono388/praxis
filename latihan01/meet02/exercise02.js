@@ -20,5 +20,5 @@ let user = {
     name : 'John',
     age : 30,
     alamat : 'Jogja'
-};
-alert(count(user));
+}
+return alert(count(user));
