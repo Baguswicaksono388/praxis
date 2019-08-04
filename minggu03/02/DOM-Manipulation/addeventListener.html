@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <button>Click Me</button>
+    <p id="nilai"></p>
+</body>
+<script>
+    var btn = document.querySelector('button');
+    var paragraf = document.querySelector('#nilai');
+    btn.addEventListener('click', klik); // click ada method yang sudah disediakan di Js, dan klik ada function yang kita buat untuk menampilkan perintah yang sesuai dengan apa yang akan kita perintahkan.
+    function klik() {
+        alert('Hello');
+        paragraf.innerHTML = 'Hello'; // menuliskan keta hello pada elemen <p>, ketika alert sudah dijalankan
+    }
+</script>
+
+</html>
