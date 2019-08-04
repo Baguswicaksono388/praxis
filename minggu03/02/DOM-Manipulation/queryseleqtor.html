@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Paragraf one</p>
+    <p>Paragraf two</p>
+    <div>div one</div>
+    <p>Paragraf three</p>
+    <div id="coba">Div two</div>
+</body>
+<script>
+    /*
+    Dalam menggunakan querySelector() ada beberapa catatan :
+    1. Jika kita menggunakan by emelemen ex : querySelector('div'), akan menampilkan elemen yang paling atas
+    2. Jika kita akan memberikan nilai menurut elemen div yang kita tentukan, menggunakan id ex : document.querySelector('#coba')
+    */
+    var atas = document.querySelector('div');
+    var firstDiv = document.querySelector('#coba');
+    atas.style.color = 'blue';
+    firstDiv.style.color = 'red';
+</script>
+
+</html>
