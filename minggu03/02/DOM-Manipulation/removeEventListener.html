@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Paragraf ini akan saya hapus</p>
+    <button>Click Me</button>
+</body>
+<script>
+    /*
+    Pada removeEventListener ini, bahwasanya ini akan mematikan method alert.
+    */
+    var btn = document.querySelector('button');
+    var paragraf = document.querySelector('p');
+    btn.addEventListener('click', klik);
+    function klik() {
+        alert('hello');
+    }
+</script>
+
+</html>
