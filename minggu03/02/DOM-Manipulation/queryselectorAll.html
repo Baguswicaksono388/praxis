@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="coba">Paragraf one</p>
+    <p>Paragraf two</p>
+    <div>Div one</div>
+    <p id="coba">Paragraf three</p>
+    <div>Div two</div>
+</body>
+<script>
+    /*
+    querySelectorAll :
+    1. Jika, langsung menggunakan paragraf.style.color, ini tidak bisa
+    2. Untuk ini harus menggunakan looping for
+    3. Jika didalaman html ada 10 elemen p. Dan akan memilih 5 elemen yang kita berikan nilai, jika kita menggunakan querySelectorAll('p') ini akan memberikan semua elemen p. Jika akan melakukan itu, maka dianjurkan untuk menggunakan id. ex : document.querySelectorAll('#coba'). Note : memberikan id nya harus sama.
+    */
+    var paragraf = document.querySelectorAll('#coba');
+    for (var p of paragraf)
+        p.style.color = 'blue';
+</script>
+
+</html>
